@@ -1,0 +1,453 @@
+body{
+    margin: 0;
+    font-family: flaticonwoff;
+    background-color: #f8f8f8;
+}
+@font-face {
+    font-family: flaticonwoff;
+    src: url(./font/Flaticon.woff);
+}
+
+/* slide show */
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.5;
+    background: #222222;
+    z-index: -1;
+}
+.overlay--secondary{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.5;
+    background: #000000;
+    z-index: -1;
+}
+.section{
+    background-image: url(./pics/bg_1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    height: 620px;
+    z-index: 0;
+}
+.section__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 78.8px;
+    width: 85%;
+    margin: 0 auto;
+    position: sticky;
+}
+.section__header__nav--a{
+    margin-left: 45px;
+    text-decoration: none; 
+    color: rgb(255, 255, 255);
+}
+.section__header__nav{
+    display: flex;
+    align-items: center;
+    
+}
+.section__header__div{
+    width: 158px;
+    height: 87px;
+    color: #fff;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    align-items: center
+}
+.section__header__div p{
+    font-size: smaller;
+}
+.margin{
+    margin:0;
+}
+.section__div{
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    height: 474px;
+    padding-top: 170px;
+}
+.section__div--p{
+    font-weight: 700;
+    color: #fff;
+    font-size: small;
+}
+.section__div--h1{
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 80px;
+    margin: 0;
+    margin-bottom: 50px;
+    
+}
+.section__div--btn--primary{
+    background: #c5a880 ;
+    border: 1px solid #c5a880 ;
+    color: #fff ;
+ 
+}
+.section__div--btn--secondry{
+    border: 1px solid white ;
+    margin-left: 10px;
+    color: #ffffff ;
+   
+}
+.section__div--btn--a{
+    padding: 1rem  2rem ;
+    text-decoration: none;
+}
+
+/* slide show end  */
+
+
+/* form start  */
+.position{
+    position: relative;
+    overflow: hidden;
+    z-index: 1000;
+}
+.form{
+    height: 157px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    background-color: #222222;
+}
+.form__div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+    color: #fff;
+}
+.form__div--select{
+    background-color: #222222;
+    color: #ffffff;
+    margin-top: 10px;
+}
+.form__div--select--secondary{
+    background-color: #c5a880;
+    padding: 20px;
+    text-align: center;
+
+}
+
+/* form start  */
+
+
+/* about us  */
+
+.section__card--secondary{
+    display: flex;
+    flex:1;
+
+}
+.section__card--primary{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+
+}
+.section__card--all{
+    width: 230px;
+    height: 230px;
+    background-color: rgb(255, 247, 237);
+    text-align: center;
+}
+.section--img{
+    background-image: url(./pics/f-services-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 230px;
+    height: 230px;
+}
+.section--width{
+    width: 80%;
+    margin: 0 auto;
+    padding:128px 0;
+    display: flex;
+}
+.margin{
+    margin-left: 25px;
+}
+.m--btm{
+    margin-bottom: 25px;
+}
+.section--about{
+    width: auto;
+    height: 465px;
+    padding-left: 30px;
+}
+.section--about span{
+    color: #c5a880;
+    font-size: 19px;
+}
+.section--about h1{
+    font-size: 64px;
+    line-height: 1.1;
+}
+.section--about p{
+    font-size: x-large;
+    margin-bottom: 3.5rem;
+}
+
+/* about us end */
+
+
+/* unwid services */
+
+.section__service{
+    height: 543px;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 100px;
+    text-align: center;
+}
+.section__service span{
+    color: #c5a880;
+    font-size: 20px;
+}
+.section__service h1{
+    font-size: 64px;
+    line-height: 1.1;
+
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0;
+}
+
+
+/* unwid services end */
+
+
+/* best hotel */
+
+.section--secondary{
+    background-image: url(./pics/bg_1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    height: 244px;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section--secondary span{
+    color: #c5a880;
+    font-size: 19px;
+}
+.section--secondary h1{
+    color: white;
+    font-size: xx-large;
+}
+.margin-l{
+    margin-left: 5rem;
+    
+}
+
+/* best hotel end */
+
+
+/* Featured Rooms */
+
+.div--room{
+    padding: 128px 0;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.span{
+    color: #c5a880;
+    font-size: 19px;
+}
+.h1{
+    color: black;
+    font-size: 64px;
+    line-height: 1.1;
+    margin-bottom: 100px;
+}
+.div--room--card{
+    height: 575px;
+    text-align: center;
+    width: 31%;
+    background-color: #fff0de;
+}
+.div--room--card p{
+    padding: 10px;
+}
+.m-btm{
+    margin-bottom: 60px;
+}
+.m-t{
+    margin-top: 70px;
+}
+.div--room--card img{
+    overflow: hidden;
+    width: 100%;
+    height: 280px;
+}
+.div--room--row{
+    display: flex;
+    justify-content: space-between;
+
+}
+.div--room--btn{
+    border: 1px solid rgb(0, 0, 0) ;
+    margin-left: 10px;
+    color: #000000 ;
+}
+.div--room--card:hover{
+    background-color: #e3c8ab;
+}
+
+/* Featured Rooms end */
+
+
+/* take a tour */
+
+.section--tour{
+    background-image: url(./pics/bg_2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    height: 600px;
+    z-index: 0;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.section--tour h1{
+    font-size: 64px;
+    margin-bottom: 30px;
+    color: white;
+}
+.section--tour h3{
+    color: white;
+}
+
+/* take a tour end */
+
+
+/* numbers */
+
+.section--number{
+    background-color: #222222;
+    height: 253px;
+   margin: 80px 0;
+}
+.section--number--row{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+}
+.section--number--card{
+    padding-top: 70px;
+}
+.section--number--card span{
+    font-size: xx-large;
+    color: #c5a880;
+
+}
+
+/* numbers end*/
+
+
+
+/* our blog*/
+
+.section__service--secondary{
+    height: 643px;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 100px;
+    text-align: center;
+   
+}
+.section__service--secondary span{
+    color: #c5a880;
+    font-size: 20px;
+}
+.section__service--secondary h1{
+    font-size: 34px;
+    line-height: 1.1;
+
+}
+.div--card--secondary{
+    height: 493px;
+    text-align: center;
+    width: 25%;
+    background-color: #fff0de;
+    margin-left: 20px;
+}
+.div--card--secondary img{
+    overflow: hidden;
+    width: 100%;
+    height: 230px;
+}
+.div--card--secondary h4,p,h2{
+    padding: 3px;
+}
+
+/* our blog end*/
+
+
+
+/* footer*/
+
+.footer{
+    height: 409px;
+    background-color: #1a1a1a;
+    margin-top: 34px;
+    padding-top: 100px;
+}
+.footer--div--row{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer--div--card--primary{
+    width: 20%;
+    color: #ffffff;
+    line-height: 2.5;
+
+}
+.footer--div--card--secondary{
+    width: 16%;
+    color: #ffffff;
+    line-height: 2.5;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    flex-direction: column;
+}
+
+/* footer end*/

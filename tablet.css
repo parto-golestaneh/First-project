@@ -1,0 +1,154 @@
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    #menu{
+        display: none;
+    }
+    
+    
+    .section__header{
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+        justify-content: center;
+        width: 100%;
+
+    }
+    .section__header__div{
+        display: none;
+    }
+    .section__header{
+        justify-content: center;
+        margin: 0;
+    }
+    .section__header__nav--a{
+        text-align: center;
+        margin: 0;
+       
+    }
+    .section__header__nav{
+       justify-content: space-evenly;
+        width: 100%;
+    }
+    .section__div{
+        font-size: small;
+        text-align: center;
+        width: 70%;
+        margin: 0 auto;
+       display: flex;
+       flex-direction: column;
+        padding-top: 170px;
+    }
+    .section__div--p{
+        font-size: medium;
+        font-weight: inherit;
+    }
+    .section__div--h1{
+        font-size: 40px;
+        
+    }
+    
+    .form{
+        display: flex;
+        flex-direction: column;
+        height: 600px;
+        width: 100%;
+    }
+    .section--width{
+        display: flex;
+        flex-direction: column;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+    }
+    .section--about{
+        margin-top: 50px;
+    }
+    .section--about p{
+        font-size: medium;
+    }
+    
+    .p--dive{
+
+        height: 100px;
+        width: auto;
+    }
+    .section--about h1{
+        font-size: 34px;
+        line-height: 1.1;
+    }
+    .section__service{
+        height: 1380px;
+    }
+    .section--secondary{
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+    }
+    .flex{
+        display: flex;
+        justify-content: flex-end; 
+        width: 100%;
+     }
+    .div--room--row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding-left: 30px;
+    }
+    .div--room--card{
+        width: 90%;
+        text-align: center;
+        padding-left: 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    
+    .section__div--btn--a{
+        
+        text-decoration: none;
+    }
+    .section--number--row{
+        flex-direction: column;
+        height: 365px;
+    }
+    .section--number{
+        height: 670px;
+    }
+    .div--card--secondary{
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .section__service--secondary{
+        height: 2241px;
+    }
+    .section__service--secondary span{
+        color: #c5a880;
+        font-size: 20px;
+    }
+    .section__service--secondary h1{
+        font-size: 64px;
+        line-height: 1.1;
+    
+    }
+    .footer--div--row{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+    }
+    .footer{
+        height: 1396px;
+    }
+    .footer--div--card--primary{
+        width: 100%;
+        text-align: left;
+    }
+    .footer--div--card--secondary{
+        width: 100%;
+        text-align: left;
+
+    }
+}

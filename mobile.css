@@ -1,0 +1,304 @@
+@media screen and (max-width: 576px) {
+
+    #burger-menu {
+        cursor: pointer;
+        height: 27px;
+        width: 27px;
+        margin: 50px;
+        overflow: visible;
+        position: relative;
+        z-index: 2;
+    
+       
+        span,
+        span:before,
+        span:after {
+            
+            display: block;
+            height: 2px;
+            opacity: 1;
+            position: absolute;
+            transition: 0.3s ease-in-out;
+        }
+    
+        span:before,
+        span:after {
+            content: '';
+        }
+    
+        
+        span:before {
+            left: 0px;
+            top: -10px;
+            width: 27px;
+        }
+    
+       
+        span {
+            right: 0px;
+            top: 13px;
+            width: 27px;
+        }
+    
+       
+        span:after {
+            left: 0px;
+            top: 10px;
+            width: 27px;
+        }
+    
+       
+        &.close {
+           
+            span:before {
+                top: 0px;
+                transform: rotate(90deg);
+                width: 27px;
+            }
+    
+           
+            span {
+                transform: rotate(-45deg);
+                top: 13px;
+                width: 27px;
+            }
+    
+            span:after {
+                top: 0px;
+                left: 0;
+                transform: rotate(90deg);
+                opacity: 0;
+                width: 0;
+            }
+        }
+    }
+    
+    #menu {
+        z-index: 1;
+        min-width: 100%;
+        min-height: 100%;
+        position: fixed;
+        top: 0;
+        height: 0;
+        visibility: hidden;
+        opacity: 0;
+        text-align: center;
+        padding-top: 20px;
+        transition: all 0.3s ease-in-out;
+    
+        &.overlay {
+            visibility: visible;
+            opacity: 1;
+            padding-top: 100px;
+            background: rgba(0, 0, 0, 0.5);
+        }
+    
+        ul {
+            padding: 0;
+        }
+    
+        li {
+            list-style: none;
+        }
+    
+        a {
+            color: #fff;
+            display: block;
+            font-size: 32px;
+            margin-bottom: 30px;
+            text-decoration: none;
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+    .section__header{
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+        justify-content: center;
+        width: 100%;
+
+    }
+    .section{
+        height: 689px;
+    }
+    .section__card--all{
+        height: 26px;
+    }
+    .section__header__div{
+        display: none;
+    }
+    .section__header{
+        justify-content: center;
+        margin: 0;
+    }
+    .section__header__nav--a{
+        text-align: center;
+        margin: 0;
+       
+    }
+    .section__header__nav{
+       justify-content: space-evenly;
+        width: 100%;
+    }
+    .section__div{
+        font-size: small;
+        text-align: center;
+        width: 70%;
+        margin: 0 auto;
+       display: flex;
+       flex-direction: column;
+        padding-top: 170px;
+    }
+    .section--img{
+        background-image: url(./pics/f-services-2.jpg);
+        background-repeat: round;
+        background-size: cover;
+        width: 230px;
+        height: 230px;
+    }
+    .m--btm{
+        margin-bottom: 5px;
+    }
+    .margin{
+        margin-left: 8px;
+    }
+    .section__div--p{
+        font-size: medium;
+        font-weight: inherit;
+    }
+    .section__div--h1{
+        font-size: 40px;
+        
+    }
+    
+    .form{
+        display: flex;
+        flex-direction: column;
+        height: 600px;
+        width: 100%;
+    }
+    .section--width{
+        display: flex;
+        flex-direction: column;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        height: 1166px;
+    }
+    .section--about{
+        margin-top: 150px;
+    }
+    .section--about p{
+        font-size: medium;
+    }
+    .p--dive{
+
+        height: 150px;
+        width: auto;
+    }
+    .section--about h1{
+        font-size: 34px;
+        line-height: 1.1;
+    }
+    .section__service{
+        height: 1669px;
+    }
+    .section--secondary{
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+    }
+    .flex{
+        display: flex;
+        justify-content: flex-end; 
+        width: 100%;
+     }
+    .div--room--row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding-left: 17px;
+    }
+    .div--room--card{
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .div--room--btn{
+        
+        margin-left: 0;
+        
+    }
+   
+    .column{
+        display: flex;
+        flex-direction: column;
+    }
+    .section__div--btn--a{
+        margin-bottom: 20px;
+        text-decoration: none;
+    }
+    .section__div--btn--secondry{
+        margin-left: 0;
+
+    }
+    .section--number--row{
+        flex-direction: column;
+    }
+    .section--number{
+        height: 670px;
+    }
+    .div--card--secondary{
+        width: 100%;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+    .section__service--secondary{
+        height: 2331px;
+    }
+    .section__service--secondary span{
+        color: #c5a880;
+        font-size: 20px;
+    }
+    .section__service--secondary h1{
+        font-size: 64px;
+        line-height: 1.1;
+    
+    }
+    .footer--div--row{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+    }
+    .footer{
+        height: 1469px;
+    }
+    .footer--div--card--primary{
+        width: 100%;
+        text-align: left;
+    }
+    .footer--div--card--secondary{
+        width: 100%;
+        text-align: left;
+
+    }
+    .flex--secondary{
+        display: flex;
+        align-items: center;
+        text-align: left;
+        flex-direction: column;
+    }
+
+
+}
